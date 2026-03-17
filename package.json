@@ -1,30 +1,37 @@
 {
-  "name": "@bu0nq/style.scss.function.em",
+  "name": "@bu0nq/scss-function-em",
   "version": "0.1.0",
-  "description": "Package for integrating Style.SCSS.Function.Em",
-  "main": "em.scss",
+  "description": "Package for integrating SCSS Function Em",
+  "keywords": [
+    "scss",
+    "style",
+    "frontend",
+    "functions",
+    "em"
+  ],
+  "main": "index.scss",
+  "exports": {
+    ".": {
+      "sass": "./index.scss",
+      "default": "./index.scss"
+    }
+  },
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bu0nq/style.scss.function.em.git"
-  },
-  "keywords": [
-    "style",
-    "scss",
-    "function",
-    "em"
-  ],
   "author": {
     "name": "bu0nq",
     "email": "hello@bu0nq.ru"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bu0nq/style.scss.function.em/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bu0nq/scss-function-em.git"
   },
-  "homepage": "https://github.com/bu0nq/style.scss.function.em#readme",
+  "bugs": {
+    "url": "https://github.com/bu0nq/scss-function-em/issues"
+  },
+  "homepage": "https://github.com/bu0nq/scss-function-em#readme",
   "publishConfig": {
     "access": "public"
   }
