@@ -1,11 +1,12 @@
 {
   "name": "@bu0nq/scss-function-em",
-  "version": "0.1.0",
-  "description": "Package for integrating SCSS Function Em",
+  "version": "1.0.0",
+  "description": "A package for integrating the px to em conversion function.",
   "keywords": [
     "scss",
     "style",
     "frontend",
+    "function",
     "functions",
     "em"
   ],
