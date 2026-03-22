@@ -1,6 +1,8 @@
 # SCSS Function Em
 
-Package for integrating `SCSS Function Em` in a web environment.
+Package for integrating `SCSS Function Em`.
+
+Documentation: [EN](README.md) | [RU](README.RU.md)
 
 ![npm](https://img.shields.io/npm/v/@bu0nq/scss-function-em?style=for-the-badge)
 ![npm](https://img.shields.io/npm/dt/@bu0nq/scss-function-em?style=for-the-badge)
@@ -8,7 +10,7 @@ ___
 
 ## Installation
 
-This package can be deployed automatically using NPM:
+You can install the package automatically using NPM:
 
 ```
 npm i @bu0nq/scss-function-em
@@ -16,7 +18,7 @@ npm i @bu0nq/scss-function-em
 
 ## Usage
 
-Import in your project depending on your setup:
+To use the package, import it into your project:
 
 ```scss
 @use "@bu0nq/scss-function-em" as *;
@@ -26,36 +28,24 @@ Import in your project depending on your setup:
 }
 ```
 
-## Namespace
+## Changing the namespace
 
-You can change the namespace during import and use the em function with a different namespace:
+You can change the namespace during function import and use the function with a different namespace:
 
 ```scss
-@use "@bu0nq/scss-function-em" as to;
+@use "@bu0nq/scss-function-em" as function;
 
 .demo {
-    font-size: to.em(16px);
+    font-size: function.em(16px);
 }
 ```
 
-## Changing baseline
+## Changing the variables
 
-By default, `function-em` uses a base size of 16 pixels, but you can change this value using the `$baseline` command and using the baseline parameter to adjust the size of the main font.
+You can redefine the default values for the specified variables when importing the function:
 
 ```scss
 @use "@bu0nq/scss-function-em" as * with (
-  $baseline: 10
+    $baseline: 16,
 );
-
-.demo {
-    font-size: em(16px);
-}
-```
-
-Execution result:
-
-```css
-.demo {
-    font-size: 1.6em;
-}
 ```
