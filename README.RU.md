@@ -2,9 +2,6 @@
 
 Пакет для интеграции функции преобразования `px` в `em`.
 
-![npm](https://img.shields.io/npm/v/@bu0nq/scss-function-em?style=for-the-badge)
-![npm](https://img.shields.io/npm/dt/@bu0nq/scss-function-em?style=for-the-badge)
-
 Документация: [EN](README.md) | [RU](README.RU.md)
 
 ___
