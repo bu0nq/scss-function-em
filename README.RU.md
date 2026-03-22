@@ -1,6 +1,6 @@
 # SCSS Function Em
 
-Пакет для интеграции "SCSS Function Em".
+Пакет для интеграции функции преобразования `px` в `em`.
 
 Documentation: [EN](README.md) | [RU](README.RU.md)
 
